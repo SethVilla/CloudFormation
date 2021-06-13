@@ -103,7 +103,7 @@ Resources:
           apt-get install apache2 -y
           systemctl start apache2.service
           sudo rm /var/www/html/index.html
-          sudo aws s3 cp s3://udagram-app-patryk/udagram.zip /var/www/html
+          sudo aws s3 cp s3://udagram-app-seth/udagram.zip /var/www/html
           sudo unzip /var/www/html/udagram.zip -d /var/www/html
           systemctl restart apache2.service
       IamInstanceProfile:
