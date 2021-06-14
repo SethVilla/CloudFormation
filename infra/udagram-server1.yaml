@@ -14,7 +14,7 @@ Parameters:
     Default: 85.221.159.72/32
 
   S3BucketKeyName:
-    Description: S3Bucke where ssh key is hosted
+    Description: S3Bucket where ssh key is hosted
     Type: String
     Default: udagram-key-seth
 
